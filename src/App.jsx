@@ -16,7 +16,7 @@ export default function App() {
   return (
     <>
     <Navbar/>
-      <Projects></Projects>
+      <Index/>
     <Footer/>
     </>
   )

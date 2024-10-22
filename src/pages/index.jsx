@@ -1,7 +1,7 @@
 export default function Index(){
     return(
         <>
-        <section class="introduction">
+        <section className="introduction">
             <img src="..." alt="..."/>
             <h1>Hello there!</h1>
             <p>Diaz Saputra is player from UPNVJ</p>
