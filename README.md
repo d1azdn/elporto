@@ -5,6 +5,10 @@
 - Contact : Formulir kontak sederhana yang memungkinkan pengunjung mengirim pesan kepada Anda.
 #### Footer : Informasi kontak tautan medsos dan copyright
 
+# Progress
+- Reactjs, Tailwindcss
+- Navbar, Home
+
 # Note
 - index.html (home), about.html (about), projects.html (projects), contact.html (contact)
 - gunakan tags html yg sesuai

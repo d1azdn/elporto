@@ -5,3 +5,27 @@ export function SmallButton(props){
         </>
     )
 }
+
+export function SmallCard(props){
+    return(
+        <>
+        <div className="border border-solid border-neutral-200 py-4 pe-8 ps-4 rounded-xl hover:bg-neutral-100 duration-200 mb-4">
+            <h1 className="font-semibold">{props.title}</h1>
+            <p className="text-sm">{props.text}</p>
+        </div>
+        </>
+    )
+}
+
+export function ProgressCard(props){
+    return(
+        <>
+        <div className="card p-5 border border-solid border-neutral-200 rounded-xl hover:bg-neutral-100 duration-200">
+            <h1 className="mb-3 font-semibold">{props.title}</h1>
+            <div className="w-full bg-gray-300 rounded-full h-2.5">
+                <div className="bg-neutral-600 h-2.5 rounded-full" style={{width : props.value}}></div>
+            </div>
+        </div>
+        </>
+    )
+}
