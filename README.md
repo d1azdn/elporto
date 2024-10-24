@@ -7,7 +7,7 @@
 
 # Progress
 - Reactjs, Tailwindcss
-- Navbar, Home
+- Navbar, Home, About
 
 # Note
 - index.html (home), about.html (about), projects.html (projects), contact.html (contact)
