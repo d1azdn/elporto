@@ -13,17 +13,17 @@ export default function Navbar({ page, setPage }){
     return (
         <>
             <header>
-                <nav className="flex justify-between border-b-2 border-solid border-neutral-50 bg-white py-4 px-20">
-                    <ul className="flex gap-14 justify-between items-center content-center">
-                        <li>
-                            <a href="" className="font-bold text-xl">d1azdn</a>
+                <nav className="flex justify-center sm:justify-between border-b-2 border-solid border-neutral-50 bg-white py-4 sm:px-20">
+                    <ul className="grid grid-cols-1 sm:flex gap-3 sm:gap-14 justify-center sm:justify-between items-center content-center text-center sm:text-start">
+                        <li className="block">
+                            <a href="" className="font-bold text-3xl sm:text-xl">d1azdn</a>
                         </li>
                         <ListNavbar text="Home" setPage={setPage} active={page == 'Home'}/>
                         <ListNavbar text="About" setPage={setPage} active={page == 'About'}/>
                         <ListNavbar text="Projects" setPage={setPage} active={page == 'Projects'}/>
                         <ListNavbar text="Contact" setPage={setPage} active={page == 'Contact'}/>
                     </ul>
-                    <ul className="justify-between items-center content-center">
+                    <ul className="hidden lg:block justify-between items-center content-center">
                         <li>
                         <SmallButton text="See on Github" href="https://github.com/d1azdn" target="_blank"/>
                         </li>
