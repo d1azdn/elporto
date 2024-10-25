@@ -3,8 +3,8 @@ import { SmallCard } from "../components/usefulComponent"
 export default function Contact(){
     return(
         <>
-        <section className="introduction flex justify-evenly m-32 items-center">
-            <div className="intro w-1/2 cursor-default">
+        <section className="introduction flex flex-col md:flex-row justify-evenly m-8 md:m-32 md:items-center">
+            <div className="intro md:w-1/2 cursor-default mb-8 md:mb-0 ">
                 <h1 className="text-4xl font-bold mb-2 hover:bg-neutral-100 duration-200">Contact me</h1>
                 <p className="mb-2 tracking-wide leading-5 hover:bg-neutral-100 duration-200">Feel free to contact me!</p>
             </div>
