@@ -11,7 +11,7 @@ export default function Home(){
                 <SmallButton text="See my projects" href="https://github.com/d1azdn" target="_blank"/>
             </div>
             <div className="images">
-                <img src="./public/assets/profile.jpg" alt="..." width={250} className="rounded-full"/>
+                <img src="assets/profile.jpg" alt="..." width={250} className="rounded-full"/>
             </div>
         </section>
         </>
